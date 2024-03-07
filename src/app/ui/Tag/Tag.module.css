@@ -1,0 +1,33 @@
+.tag {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid var(--dark);
+    border-radius: 0.25rem;
+   
+    line-height: 1.5;
+    text-align: center;
+    transition: color .15s;
+    user-select: none;
+    vertical-align: middle;
+
+    background-color: var(--light);
+    color: var(--dark);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.tag.sm {
+    padding: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.tag.md {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+}
+
+.tag.lg {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}

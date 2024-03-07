@@ -1,0 +1,12 @@
+.rating-star {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rating-star:hover svg polygon {
+    fill: #EFCE4A
+}
+
+.rating-star.active svg polygon {
+    fill: #EFCE4A
+}
